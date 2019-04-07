@@ -1,0 +1,19 @@
+body{
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: green;
+    font-size: 22px;
+}
+
+img{
+    display: block;
+    width: 293px;
+    height: 293px;
+    margin: auto;
+    margin-top: 20px;
+}
