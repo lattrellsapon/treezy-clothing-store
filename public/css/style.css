@@ -11,6 +11,10 @@ body{
     line-height: 1.5;
 }
 
+.item-sold{
+    color: #ff0000;
+}
+
 .header{
     width: 100%;
     background: #00b300;
