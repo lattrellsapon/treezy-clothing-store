@@ -1,121 +1,119 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
 
-body{
-    background: #fff;
-    color: #000;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.5;
+body {
+  background: #fff;
+  color: #000;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
 }
 
-.item-sold{
-    color: #ff0000;
+.item-sold {
+  color: #ff0000;
 }
 
-.header{
-    width: 100%;
-    background: #00b300;
-    color: #fff;
-    padding: 10px;
+.header {
+  width: 100%;
+  background: #00b300;
+  color: #fff;
+  padding: 10px;
 }
 
-.navbar{
-    padding: 10px 0; 
+.navbar {
+  padding: 10px 0;
 }
 
 .navbar li a {
-    display: block;
-    text-decoration: none;
-    color: #000;
-    text-decoration: underline;
-    margin-bottom: 20px;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  text-decoration: underline;
+  margin-bottom: 20px;
 }
 
 .active {
-    background-color: #cccccc;
-    color: white;
-    width: 30%;
-    margin: auto;
-    padding: 10px;
-    border-radius: 8px;
+  background-color: #cccccc;
+  color: white;
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 8px;
 }
 
-img{
-    width: 100%;
-    border-radius: 8px;
+img {
+  width: 100%;
+  border-radius: 8px;
 }
 
-.container{
-    width: 70%;
-    margin: auto;
+.container {
+  width: 70%;
+  margin: auto;
 }
 
-#welcome-message, #instructions{
-    margin-bottom: 20px;
+#welcome-message,
+#instructions {
+  margin-bottom: 20px;
 }
 
-#instructions{
-    height: 320px;;
+#instructions {
+  height: 320px;
 }
 
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 
-span{
-    font-weight: bold;
+span {
+  font-weight: bold;
 }
 
-a{
-    text-decoration: none;
-    color: #00b300;
+a {
+  text-decoration: none;
+  color: #00b300;
 }
 
-.item{
-    /* background: #00b300; */
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 8px;
+.item {
+  /* background: #00b300; */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
 }
 
-.item-description, .item-content{
-    margin-bottom: 10px;
-    background: #fff;
-    color: #000;
-    border-radius: 8px;
+.item-description,
+.item-content {
+  margin-bottom: 10px;
+  background: #fff;
+  color: #000;
+  border-radius: 8px;
 }
 
-#footer{
-    height: 50px;
+#footer {
+  height: 50px;
 }
 
-@media only screen and (min-width: 600px)
-{
-    /* For Tablets */
-    .grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
-    }
+@media only screen and (min-width: 600px) {
+  /* For Tablets */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
 
-    .active {
-        width: 25%;
-    }
+  .active {
+    width: 25%;
+  }
 
-    /* li{
+  /* li{
         display: inline;
     } */
 }
 
-@media only screen and (min-width: 768px)
-{
-    /* For Desktop: */
-    .active {
-        width: 15%;
-    }
+@media only screen and (min-width: 768px) {
+  /* For Desktop: */
+  .active {
+    width: 15%;
+  }
 }
-
-
